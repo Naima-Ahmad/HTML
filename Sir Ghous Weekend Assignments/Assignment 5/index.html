@@ -8,7 +8,9 @@
     <style>
         #div {
             background-color: blueviolet;
+            width: 43%;
         }
+
         a {
             text-decoration: none;
         }
@@ -26,109 +28,119 @@
 
         <div id="div">
             <font color="white">
-                <table>
+                <table style="width: 70%;" border="1">
                     <tr>
                         <td>First Name</td>
-                        <td>&nbsp;&nbsp;&nbsp;&nbsp;</td>
-                        <td><input type="text" placeholder="Enter first name"><label>
+                        <td colspan="4">
+                            <input type="text" placeholder="Enter first name"><label>
                                 &nbsp;(max 30 characters a-z and A-Z)
-                            </label></td>
+                            </label>
+                        </td>
                     </tr>
                     <tr>
                         <td>Last Name</td>
-                        <td>&nbsp;&nbsp;&nbsp;&nbsp;</td>
-                        <td><input type="text" placeholder="Enter last name"><label>
+                        <td colspan="4">
+                            <input type="text" placeholder="Enter last name"><label>
                                 &nbsp;(max 30 characters a-z and A-Z)
-                            </label></td>
+                            </label>
+                        </td>
                     </tr>
                     <tr>
                         <td>Date of birth</td>
-                        <td>&nbsp;&nbsp;&nbsp;&nbsp;</td>
-                        <td><input type="date"></td>
+                        <td colspan="4">
+                            <input type="date">
+                        </td>
                     </tr>
                     <tr>
                         <td>Email ID</td>
-                        <td>&nbsp;&nbsp;&nbsp;&nbsp;</td>
-                        <td><input type="text" placeholder="Enter email address"><label>
+                        <td colspan="4">
+                            <input type="text" placeholder="Enter email address"><label>
                                 &nbsp;(max 30 characters a-z and A-Z)
-                            </label></td>
+                            </label>
+                        </td>
                     </tr>
                     <tr>
                         <td>Mobile Number</td>
-                        <td>&nbsp;&nbsp;&nbsp;&nbsp;</td>
-                        <td><input type="number" placeholder="Enter mobiel number"><label>
+                        <td colspan="4">
+                            <input type="number" placeholder="Enter mobiel number"><label>
                                 &nbsp;(10 digit number)
-                            </label></td>
+                            </label>
+                        </td>
                     </tr>
                     <tr>
                         <td>
                             Gender
                         </td>
-                        <td>&nbsp;&nbsp;&nbsp;&nbsp;</td>
-                        <td>
+                        <td colspan="4">
+
                             <input type="radio" name="female" value="male"><label>Male</label>
                             <input type="radio" name="female" value="female"><label>Female</label>
                         </td>
+                    </tr>
                     <tr>
                         <td>ADDRESS</td>
-                        <td>
-                            &nbsp;&nbsp;&nbsp;&nbsp;
-                        </td>
-                        <td>
+
+                        <td colspan="4">
+                            
+
+
                             <textarea name="" id="" cols="30" rows="4"></textarea>
                         </td>
 
                     </tr>
                     <tr>
                         <td>CITY</td>
-                        <td>&nbsp;&nbsp;&nbsp;&nbsp;</td>
-                        <td><input type="text" placeholder="Enter city name"><label>
+                        <td colspan="4">
+                            <input type="text" placeholder="Enter city name"><label>
                                 &nbsp;(max 30 characters a-z and A-Z)
-                            </label></td>
+                            </label>
+                        </td>
                     </tr>
                     <tr>
                         <td>PIN CODE</td>
-                        <td>&nbsp;&nbsp;&nbsp;&nbsp;</td>
-                        <td><input type="text" placeholder="Enter pincode"><label>
+                        <td colspan="4">
+                            <input type="text" placeholder="Enter pincode"><label>
                                 &nbsp;(max 6 digit)
-                            </label></td>
+                            </label>
+                        </td>
                     </tr>
                     <tr>
                         <td>STATE</td>
-                        <td>&nbsp;&nbsp;&nbsp;&nbsp;</td>
-                        <td><input type="text" placeholder="Enter state"><label>
+                        <td colspan="4">
+                            <input type="text" placeholder="Enter state"><label>
                                 &nbsp;(max 30 characters a-z and A-Z)
-                            </label></td>
+                            </label>
+                        </td>
                     </tr>
                     <tr>
                         <td>COUNTRY</td>
-                        <td>&nbsp;&nbsp;&nbsp;&nbsp;</td>
-                        <td><input type="text" placeholder="Enter country"><label>
+                        <td colspan="4">
+                            <input type="text" placeholder="Enter country"><label>
                                 &nbsp;(max 30 characters a-z and A-Z)
-                            </label></td>
+                            </label>
+                        </td>
                     </tr>
                     <tr>
                         <td>
                             HOBBIES
                         </td>
-                        <td>&nbsp;&nbsp;&nbsp;&nbsp;</td>
-                        <td><input type="checkbox" name="hobbies"><label>Drawing</label>
+                        <td colspan="4">
+                            <input type="checkbox" name="hobbies"><label>Drawing</label>
                             <input type="checkbox" name="hobbies"><label>Singing</label>
                             <input type="checkbox" name="hobbies"><label>Dancing</label>
                             <input type="checkbox" name="hobbies"><label>Sketching</label>
                             <br>
-                            <input type="checkbox" name="hobbies"><label>others</label>
+                            &nbsp;<input type="checkbox" name="hobbies"><label>others</label>
                             <input type="text" name="hobbies">
                         </td>
                     </tr>
 
-                </table>
-                <table>
+                
+                
                     <tr>
-                        <td>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-                        &nbsp;</td>
-                        <td>QUALIFICATION</td>
                         
+                        <td>QUALIFICATION</td>
+
                         <td>SI.NO. Examination</td>
                         <td align="center">Board</td>
                         <td align="center">Percentage</td>
@@ -136,49 +148,49 @@
                     </tr>
                     <tr>
                         <td></td>
-                        <td>&nbsp;&nbsp;&nbsp;&nbsp;</td>
-                        <td>1&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Class X</td>
+                        
+                        <td>1 Class X</td>
                         <td><input type="text" name="board"></td>
                         <td><input type="text" name="Percentage"></td>
                         <td><input type="text" name="Year of passing"></td>
                     </tr>
                     <tr>
                         <td></td>
-                        <td>&nbsp;&nbsp;&nbsp;&nbsp;</td>
-                        <td>2&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Class XII</td>
+                        
+                        <td>2 Class XII</td>
                         <td><input type="text" name="board"></td>
                         <td><input type="text" name="Percentage"></td>
                         <td><input type="text" name="Year of passing"></td>
                     </tr>
                     <tr>
                         <td></td>
-                        <td>&nbsp;&nbsp;&nbsp;&nbsp;</td>
-                        <td>3&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Graduation</td>
+                        
+                        <td>3 Graduation</td>
                         <td><input type="text" name="board"></td>
                         <td><input type="text" name="Percentage"></td>
                         <td><input type="text" name="Year of passing"></td>
                     </tr>
                     <tr>
                         <td></td>
-                        <td>&nbsp;&nbsp;&nbsp;&nbsp;</td>
-                        <td>4&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Masters</td>
+                        
+                        <td>4 Masters</td>
                         <td><input type="text" name="board"></td>
                         <td><input type="text" name="Percentage"></td>
                         <td><input type="text" name="Year of passing"></td>
                     </tr>
                     <tr>
-                        <td>&nbsp;&nbsp;&nbsp;&nbsp;</td>
+                        
                         <td></td>
                         <td></td>
                         <td align="center">(10 char max)</td>
                         <td align="center">(upto 2 decimal)</td>
                     </tr>
                     <tr>
-                        <td></td>
+                        
                         <td>COURSES</td>
                     </tr>
                     <tr>
-                        <td></td>
+                        
                         <td>APPLIED FOR</td>
                         <td>
                             <input type="radio" name="applied"><label>BCA</label>
