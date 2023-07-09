@@ -1,0 +1,16 @@
+h1 {
+    color: chocolate;
+    background-color: bisque;
+}
+
+p,dd,blockquote {
+    color: goldenrod;
+}
+
+dt {
+    color:gold ;
+}
+
+ul {
+    color: gold;
+}
