@@ -1,11 +1,24 @@
 body {
-    background-color: rgb(125, 194, 194);
+    background-color: rgb(201, 218, 218);
 }
 
 h1 {
-    color: purple;
+    color: rgb(25, 66, 52);
 }
 
 h2 > u {
     color: rgb(3, 61, 61);
+}
+
+ul, p {
+    color: rgb(7, 112, 112) ;    
+}
+
+
+li > h3 {
+    color: rgb(22, 105, 105);
+}
+
+p > a {
+    text-decoration: none;
 }
