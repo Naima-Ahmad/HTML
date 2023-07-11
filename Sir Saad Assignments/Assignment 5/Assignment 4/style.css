@@ -9,3 +9,15 @@ body {
 h1 {
     color: rgb(25, 66, 52);
 }
+
+#reg {
+    background-color: darkcyan;
+}
+
+.td {
+    background-color: rgb(32, 179, 179);
+}
+
+.white {
+    background-color: white;
+}
