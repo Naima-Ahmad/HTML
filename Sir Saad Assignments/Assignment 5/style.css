@@ -1,0 +1,21 @@
+body {
+    background-color:  rgb(125, 194, 194) ;
+}
+
+button > a {
+    text-decoration: none;
+    color: white;
+}
+
+button {
+    background-color: rgb(69, 69, 255);
+    border-color: rgb(69, 69, 255);
+}
+
+h1, p {
+    text-align: center;
+}
+
+h1 {
+    color: darkblue;
+}
