@@ -18,6 +18,7 @@ body {
     background-color: white;
     display: inline-block;
     gap: 20px;
+    border-radius: 3px;
 }
 
 p,h2 {
@@ -35,8 +36,14 @@ p {
 
 
 .padding-btn {
-    padding: 0px 25px 20px 25px;
-    width: ;
+    margin: 0px 25px 20px 25px;
+    width: 250px;
+    height: 35px;
+    border-radius: 3px;
+    padding-bottom: 3px;
+    border-color: transparent;
+    background-color: rgb(224, 218, 241);
+    color: rgb(115, 73, 233);
 }
 
 .flex {
