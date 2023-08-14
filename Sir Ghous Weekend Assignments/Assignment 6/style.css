@@ -72,3 +72,11 @@ p {
     border-top-right-radius: 3px;
     height: 157px;
 }
+
+.image3 {
+    min-width: 100px;
+    width: 300px;
+    border-top-left-radius: 3px;
+    border-top-right-radius: 3px;
+    height: 157px;
+}
