@@ -6,30 +6,62 @@
     <title>Profolio</title>
 
     <style>
+        a {
+            color: white;
+        }
+
         body {
             text-align: center;
+        }
+
+        .main {
+            text-align: left;
+            width: 50%;
+            margin: auto;
+        }
+
+        .div1 {
+            display: inline-block;
+            margin: 0 6%;
+            padding: 30px;
+            border: 2px solid black;
+            text-align: center;
+            background-color: rgb(47, 119, 207);
+            color: white;
+        }
+        
+        .div2 {
+            color: white;
+            background-color: rgb(47, 119, 207);
+            margin: 10px 12%;
+            text-align: center;
+            display: inline-block;
+            padding: 30px;
+            border: 2px solid black;
         }
     </style>
 </head>
 <body>
-        <div>
-            <h1>Profolio</h1>
-            <h2>HTML ASSIGNMENTS</h2>
-        </div>
-
-        <div>
+    <div>
+        <h1>Profolio</h1>
+        <h2>HTML ASSIGNMENTS</h2>
+    </div>
+    
+    <div class="main">
+    <div>
             <h3>Hello Devs !</h3>
             <p>I am Naima Ahmad Learning Web and Mobile App development from saylani here is my html Assignment.</p>
             <hr>
             <div>
-                <div>Assignment : 1</div>
-                <div>Assignment : 2</div>
-                <div>Assignment : 3</div>
+                <div class="div1"><a href="">Assignment : 1</a></div>
+                <div class="div1"><a href="">Assignment : 2</a></div>
+                <div class="div1"><a href="">Assignment : 3</a></div>
             </div>
             <div>
-                <div>Assignment : 4</div>
-                <div>Assignment : 5</div>
+                <div class="div2"><a href="">Assignment : 4</a></div>
+                <div class="div2"><a href="">Assignment : 5</a></div>
             </div>
         </div>
+    </div>
 </body>
 </html>
