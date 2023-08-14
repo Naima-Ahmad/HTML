@@ -6,12 +6,14 @@ body {
     padding: 20px 50px;
     background-color: #efeff1;
     margin: 40px auto;
-    width: 50%;
+    width: 945px;
 }
 
 .image {
     min-width: 100px;
     max-width: 300px;
+    border-top-left-radius: 3px;
+    border-top-right-radius: 3px;
 }
 
 .white {
@@ -49,4 +51,10 @@ p {
 .flex {
     display: flex;
     gap: 40px;
+    flex-direction: column;
+}
+
+.border {
+    border-top-left-radius: 3px;
+    border-top-right-radius: 3px;
 }
