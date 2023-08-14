@@ -1,0 +1,209 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Student Registration Form</title>
+    <style>
+        #div {
+            background-color: blueviolet;
+            width: 43%;
+        }
+
+        a {
+            text-decoration: none;
+        }
+    </style>
+</head>
+
+<body>
+    <center>
+        <img src="https://www.saylaniwelfare.com/static/media/logo_saylaniwelfare.22bf709605809177256c.png"
+            alt="Saylani logo">
+
+        <h1>
+            <font color="#6a1bf2"><u>Student Registration Form</u></font>
+        </h1>
+
+        <div id="div">
+            <font color="white">
+                <table>
+                    <tr>
+                        <td>First Name</td>
+                        <td colspan="4">
+                            <input type="text" placeholder="Enter first name" required><label>
+                                &nbsp;(max 30 characters a-z and A-Z)
+                            </label>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>Last Name</td>
+                        <td colspan="4">
+                            <input type="text" placeholder="Enter last name" required><label>
+                                &nbsp;(max 30 characters a-z and A-Z)
+                            </label>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>Date of birth</td>
+                        <td colspan="4">
+                            <input required type="date">
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>Email ID</td>
+                        <td colspan="4">
+                            <input type="email" required placeholder="Enter email address"><label>
+                                &nbsp;(max 30 characters a-z and A-Z)
+                            </label>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>Mobile Number</td>
+                        <td colspan="4">
+                            <input type="number" required placeholder="Enter mobiel number"><label>
+                                &nbsp;(10 digit number)
+                            </label>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            Gender
+                        </td>
+                        <td colspan="4">
+
+                            <input type="radio" name="female" required value="male"><label>Male</label>
+                            <input type="radio" name="female" value="female"><label>Female</label>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>ADDRESS</td>
+
+                        <td colspan="4">
+                            
+
+
+                            <textarea name="" required id="" cols="30" rows="4"></textarea>
+                        </td>
+
+                    </tr>
+                    <tr>
+                        <td>CITY</td>
+                        <td colspan="4">
+                            <input required type="text" placeholder="Enter city name"><label>
+                                &nbsp;(max 30 characters a-z and A-Z)
+                            </label>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>PIN CODE</td>
+                        <td colspan="4">
+                            <input required type="number" placeholder="Enter pincode"><label>
+                                &nbsp;(max 6 digit)
+                            </label>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>STATE</td>
+                        <td colspan="4">
+                            <input required type="text" placeholder="Enter state"><label>
+                                &nbsp;(max 30 characters a-z and A-Z)
+                            </label>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>COUNTRY</td>
+                        <td colspan="4">
+                            <input required type="text" placeholder="Enter country"><label>
+                                &nbsp;(max 30 characters a-z and A-Z)
+                            </label>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            HOBBIES
+                        </td>
+                        <td colspan="4">
+                            <input required type="checkbox" name="hobbies"><label>Drawing</label>
+                            <input type="checkbox" name="hobbies"><label>Singing</label>
+                            <input type="checkbox" name="hobbies"><label>Dancing</label>
+                            <input type="checkbox" name="hobbies"><label>Sketching</label>
+                            <br>
+                            &nbsp;<input type="checkbox" name="hobbies"><label>others</label>
+                            <input type="text" name="hobbies">
+                        </td>
+                    </tr>
+
+                
+                
+                    <tr>
+                        
+                        <td>QUALIFICATION</td>
+
+                        <td>SI.NO. Examination</td>
+                        <td align="center">Board</td>
+                        <td align="center">Percentage</td>
+                        <td align="center">Year of passing</td>
+                    </tr>
+                    <tr>
+                        <td></td>
+                        
+                        <td>1 Class X</td>
+                        <td><input required type="text" name="board"></td>
+                        <td><input required type="text" name="Percentage"></td>
+                        <td><input required type="text" name="Year of passing"></td>
+                    </tr>
+                    <tr>
+                        <td></td>
+                        
+                        <td>2 Class XII</td>
+                        <td><input required type="text" name="board"></td>
+                        <td><input required type="text" name="Percentage"></td>
+                        <td><input required type="text" name="Year of passing"></td>
+                    </tr>
+                    <tr>
+                        <td></td>
+                        
+                        <td>3 Graduation</td>
+                        <td><input required type="text" name="board"></td>
+                        <td><input required type="text" name="Percentage"></td>
+                        <td><input required type="text" name="Year of passing"></td>
+                    </tr>
+                    <tr>
+                        <td></td>
+                        
+                        <td>4 Masters</td>
+                        <td><input required type="text" name="board"></td>
+                        <td><input required type="text" name="Percentage"></td>
+                        <td><input required type="text" name="Year of passing"></td>
+                    </tr>
+                    <tr>
+                        
+                        <td></td>
+                        <td></td>
+                        <td align="center">(10 char max)</td>
+                        <td align="center">(upto 2 decimal)</td>
+                    </tr>
+                    
+                        <td>COURSES <br> APPLIED FOR</td>
+                        <td colspan="2">
+                            <input required type="radio" name="applied"><label>BCA</label>
+                            <input required type="radio" name="applied"><label>B.Com</label>
+                            <input required type="radio" name="applied"><label>B.Sc</label>
+                            <input required type="radio" name="applied"><label>B.A</label>
+                        </td>
+                    </tr>
+                </table>
+            </font>
+            <br>
+            <form action="./server.html" method="post"></form>
+            <button><a href="./server.html">Submit</a></button>
+            <button><a href="./reset.html">Reset</a></button>
+            <br>
+            <br>
+    </center>
+    </div>
+</body>
+
+</html>
